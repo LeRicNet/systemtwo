@@ -2,13 +2,27 @@
 AI CDSS Framework
 
 ## Get Started Now
+
+ - Req 1: [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
 Navigate to the directory you wish to store systemtwo and run the following command:
 
 ```
 gh repo clone LeRicNet/systemtwo && systemtwo/launch
 ```
 
+Afterwards, open your web browser and go to https://localhost.
+
+*NOTE*: the initial launch of systemtwo will take additional time to download the necessary dependencies and compose the docker containers. After the first launch, this startup sequence is much faster.
+
 ## About
+
+Mac: If you wish to point your server to a new domain name (e.g., https://systemtwo.co), you can add the following line to `/etc/hosts`.
+
+```
+127.0.0.1	systemtwo.co
+```
+
 
 ## Advanced Usage
 
