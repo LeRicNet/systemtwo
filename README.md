@@ -1,5 +1,5 @@
 # systemtwo
-AI CDSS Framework
+A framework for developing artificial intelligence (AI)-enabled clinical decision support systems (CDSS) and administering usability tests.
 
 ## Get Started Now
 
@@ -17,14 +17,13 @@ Afterwards, open your web browser and go to https://localhost.
 
 ## About
 
+
+## Advanced Usage
 Mac: If you wish to point your server to a new domain name (e.g., https://systemtwo.co), you can add the following line to `/etc/hosts`.
 
 ```
 127.0.0.1	systemtwo.co
 ```
-
-
-## Advanced Usage
 
 ### Backend/Frontend Interface
 PHP and JavaScript backend provided by [Laravel](https://laravel.com/). Bootstrap theme template provided by [Start Bootstrap](https://startbootstrap.com/theme/sb-admin-2). Medical image viewing capabilities provided by the [Open Health Imaging Foundation (OHIF) Viewer](https://github.com/OHIF/Viewers). AI functionality developed using the [TensorFlow (TF) framework](https://www.tensorflow.org/) and associated ecosystem (i.e., [TFX](https://www.tensorflow.org/tfx), [TF.js](https://www.tensorflow.org/j)).
