@@ -18,10 +18,16 @@ This software was developed on Mac OS X 11.6, and is currently not supported for
 
  You will need to start Docker Desktop before continuing.
  
- - Req3: [PHP](https://www.php.net/)
+ - Req 3: [PHP](https://www.php.net/)
  
  ```
  brew install php
+ ```
+ 
+ - Req 4: [Xdebug](https://xdebug.org/)
+ 
+ ```
+ pecl install xdebug
  ```
 
 In Terminal, navigate to the directory you wish to store systemtwo (e.g., `cd ~/Downloads/`) and enter the following command:
