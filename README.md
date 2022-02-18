@@ -1,9 +1,19 @@
 # systemtwo [Under Development]
-A framework for developing artificial intelligence (AI)-enabled clinical decision support systems (CDSS) and administering usability tests.
+A framework for developing explainable artificial intelligence-enabled clinical decision support systems (XAI-CDSS) and administering usability tests.
 
 ## Get Started Now
 
+This software was developed on Mac OS X 11.6, and 
+
  - Req 1: [GitHub CLI (i.e., gh)](https://github.com/cli/cli)
+ 
+ For example,
+ ```
+ brew install gh
+ ```
+ 
+ *NOTE*: you will need to authorize the gh CLI before use. (`gh auth login`)
+ 
  - Req 2: [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 Navigate to the directory you wish to store systemtwo and run the following command:
