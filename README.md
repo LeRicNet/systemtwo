@@ -3,7 +3,7 @@ A framework for developing explainable artificial intelligence-enabled clinical 
 
 ## Get Started Now
 
-This software was developed on Mac OS X 11.6, and 
+This software was developed on Mac OS X 11.6, and is currently not supported for machines running Windows.
 
  - Req 1: [GitHub CLI (i.e., gh)](https://github.com/cli/cli)
  
@@ -17,6 +17,12 @@ This software was developed on Mac OS X 11.6, and
  - Req 2: [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
  You will need to start Docker Desktop before continuing.
+ 
+ - Req3: [PHP](https://www.php.net/)
+ 
+ ```
+ brew install php
+ ```
 
 In Terminal, navigate to the directory you wish to store systemtwo (e.g., `cd ~/Downloads/`) and enter the following command:
 
