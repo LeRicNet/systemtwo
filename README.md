@@ -1,9 +1,10 @@
-# systemtwo
+# systemtwo [Under Development]
 A framework for developing artificial intelligence (AI)-enabled clinical decision support systems (CDSS) and administering usability tests.
 
 ## Get Started Now
 
- - Req 1: [Docker Desktop](https://www.docker.com/products/docker-desktop)
+ - Req 1: [GitHub CLI (i.e., gh)](https://github.com/cli/cli)
+ - Req 2: [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 Navigate to the directory you wish to store systemtwo and run the following command:
 
@@ -19,7 +20,7 @@ Afterwards, open your web browser and go to https://localhost.
 
 
 ## Advanced Usage
-Mac: If you wish to point your server to a new domain name (e.g., https://systemtwo.co), you can add the following line to `/etc/hosts`.
+Mac: If you wish to point your local server to a new domain name (e.g., https://systemtwo.co), you can add the following line to `/etc/hosts`.
 
 ```
 127.0.0.1	systemtwo.co
