@@ -16,10 +16,12 @@ This software was developed on Mac OS X 11.6, and
  
  - Req 2: [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-Navigate to the directory you wish to store systemtwo and run the following command:
+ You will need to start Docker Desktop before continuing.
+
+In Terminal, navigate to the directory you wish to store systemtwo (e.g., `cd ~/Downloads/`) and enter the following command:
 
 ```
-gh repo clone LeRicNet/systemtwo && systemtwo/launch
+gh repo clone LeRicNet/systemtwo && cd systemtwo && ./launch
 ```
 
 Afterwards, open your web browser and go to https://localhost.
